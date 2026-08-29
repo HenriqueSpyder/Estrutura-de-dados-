@@ -97,7 +97,6 @@ func novaArvoreDeTeste() *Arvore {
 }
 
 func testarRemocao(descricao string, valor int) {
-	// Cada teste usa uma arvore separada, como solicitado no enunciado.
 	arvore := novaArvoreDeTeste()
 	arvore.Remover(valor)
 
